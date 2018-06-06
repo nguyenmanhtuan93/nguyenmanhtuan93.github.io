@@ -6,23 +6,26 @@ var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var livereload = require('gulp-livereload');
-var browserSync = require('browser-sync').create();
 var minifyCss = require('gulp-cssnano');
+let cleanCSS = require('gulp-clean-css');
+let sourcemaps = require('gulp-sourcemaps');
+var browserSync = require('browser-sync').create();
+var reload      = browserSync.reload;
 
 // Compile Our Sass
 gulp.task('sass', function () {
-    return gulp.src('style/sass/*.scss')
+    return gulp.src('styles/*.scss')
         .pipe(sass())
         .pipe(minifyCss())
-        .pipe(rename('style.min.css'))
-        .pipe(gulp.dest('style'))
+        .pipe(rename('styles.min.css'))
+        .pipe(gulp.dest('styles'))
         .pipe(livereload());
 });
 
 // Watch Files For Changes
 gulp.task('watch', function () {
     livereload.listen();
-    gulp.watch(['style/sass/*.scss'], ['sass']);
+    gulp.watch(['styles/*.scss'], ['sass']);
 });
 
 // Default Task
