@@ -1,0 +1,32 @@
+{
+  "name": "nguyenmanhtuan93.github.io",
+  "version": "1.0.0",
+  "description": "Profile pages",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenmanhtuan93/nguyenmanhtuan93.github.io.git"
+  },
+  "author": "Nguyen Manh Tuan (tuannm.cntt93@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nguyenmanhtuan93/nguyenmanhtuan93.github.io/issues"
+  },
+  "homepage": "https://github.com/nguyenmanhtuan93/nguyenmanhtuan93.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "malihu-custom-scrollbar-plugin": "^3.1.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1"
+  }
+}
