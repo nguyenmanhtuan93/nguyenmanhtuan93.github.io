@@ -1,5 +1,5 @@
 {
-  "name": "nguyenmanhtuan93.github.io",
+  "name": "tuannm93.github.io",
   "version": "1.0.0",
   "description": "Profile pages",
   "main": "index.html",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nguyenmanhtuan93/nguyenmanhtuan93.github.io.git"
+    "url": "git+https://github.com/tuannm93/tuannm93.github.io.git"
   },
   "author": "Nguyen Manh Tuan (tuannm.cntt93@gmail.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nguyenmanhtuan93/nguyenmanhtuan93.github.io/issues"
+    "url": "https://github.com/tuannm93/tuannm93.github.io/issues"
   },
-  "homepage": "https://github.com/nguyenmanhtuan93/nguyenmanhtuan93.github.io#readme",
+  "homepage": "https://github.com/tuannm93/tuannm93.github.io#readme",
   "dependencies": {
     "jquery": "^3.3.1",
     "malihu-custom-scrollbar-plugin": "^3.1.5"
