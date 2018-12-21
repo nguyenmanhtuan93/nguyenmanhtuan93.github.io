@@ -3,6 +3,7 @@
 .sass-cache
 _site
 Gemfile.lock
+.idea
 
 Thumbs.db
 .DS_Store
