@@ -28,7 +28,7 @@ title: I'm Tuannm
 description: "Web Designer & Developer from Hanoi, Vietnam"
 keywords: 'tuannm,front-end,developer,blog,designer'
 type: Person
-image: '/assets/images/image-share.png'
+image: /assets/images/image-share.png
 author:
   name: Nguyen Manh Tuan
   job_title: Front-end Developer & Designer
