@@ -52,6 +52,7 @@ home:
   section1: <h1>Tuannm</h1>
   section2: <h2>Web Designer & Developer from Hanoi, Vietnam</h2>
   section3: #<div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
+  section4: <div class="zalo-share-button" data-href="https://tuannm.com" data-oaid="579745863508352884" data-layout="2" data-color="blue" data-customize=false></div>
 
 google_tag_manager: GTM-KBJFJRZ
 
