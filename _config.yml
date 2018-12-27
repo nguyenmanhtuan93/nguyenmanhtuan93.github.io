@@ -22,8 +22,8 @@ sass:
 
 # Site Data
 url: 'https://tuannm.com' # the base hostname & protocol for your site, e.g. http://example.com
-#baseurl: '/' # the subpath of your site when run on GitHub
-baseurl: '' # the subpath of your site when run to local
+baseurl: '/' # the subpath of your site when run on GitHub
+#baseurl: '' # the subpath of your site when run to local
 title: I'm Tuannm
 description: "Web Designer & Developer from Hanoi, Vietnam"
 keywords: 'tuannm,front-end,developer,blog,designer'
