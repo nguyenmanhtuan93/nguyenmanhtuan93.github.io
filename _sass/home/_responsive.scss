@@ -27,6 +27,10 @@
     h3 {
         font-size: 1.175em;
     }
+    .icon-logo {
+        width: 93px;
+        height: 93px;
+    }
 }
 
 @media only screen and (max-width: 480px), screen and (max-height: 480px) {
@@ -38,6 +42,10 @@
     }
     h3 {
         font-size: 1.05em;
+    }
+    .icon-logo {
+        width: 64px;
+        height: 64px;
     }
 }
 

@@ -22,39 +22,40 @@ sass:
 
 # Site Data
 url: 'https://tuannm.com' # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: '/' # the subpath of your site when run on GitHub
-#baseurl: '' # the subpath of your site when run to local
-title: I'm Tuannm
+#baseurl: '/' # the subpath of your site when run on GitHub
+baseurl: '' # the subpath of your site when run to local
+
+# Seo
+title: Tuan Nguyen Manh
 description: "Web Designer & Developer from Hanoi, Vietnam"
 keywords: 'tuannm,front-end,developer,blog,designer'
 type: Person
 image: /assets/images/image-share.png
 author:
-  name: Nguyen Manh Tuan
+  name: Tuan Nguyen Manh
   job_title: Front-end Developer & Designer
   location: Hanoi, Vietnam
   email: tuannm.work@gmail.com
   social_links:
-#    - name: facebook
-#      url: https://www.facebook.com/tuannm93
     - name: github
       url: https://github.com/tuannm93
-#    - name: instagram
-#      url: https://www.instagram.com/tuannm93
     - name: linkedin
       url: https://www.linkedin.com/in/tuannm93
+#    - name: facebook
+#      url: https://www.facebook.com/tuannm93
+#    - name: instagram
+#      url: https://www.instagram.com/tuannm93
 #    - name: stackoverflow
 #      url: https://stackoverflow.com/users/4454936/nguyen-manh-tuan
-    - name: twitter
-      url: https://twitter.com/tuannm993
+#    - name: twitter
+#      url: https://twitter.com/tuannm993
 #    - name: vk
 #      url: https://vk.com/tuannm93
+
 home:
-  section0: #image
-  section1: <h1>Tuannm</h1>
-  section2: <h2>Web Designer & Developer from Hanoi, Vietnam</h2>
-  section3: #<div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
-  section4: <div class="zalo-share-button" data-href="https://tuannm.com" data-oaid="579745863508352884" data-layout="2" data-color="blue" data-customize=false></div>
+  section0: # something
+  section1: <h1>Tuan Nguyen Manh</h1>
+  section2: <h2>I am a web developer focusing on front-end development. Always hungry to keep learning.</h2> #<h2>Web Designer & Developer from Hanoi, Vietnam</h2>
 
 google_tag_manager: GTM-KBJFJRZ
 

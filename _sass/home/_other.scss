@@ -1,0 +1,94 @@
+body {
+    font-family: $fonts-body;
+    font-size: 18px;
+    line-height: 36px;
+
+    color: $color-text-dark;
+}
+
+h1 {
+    font-size: 5em;
+
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.225em;
+}
+
+h3 {
+    font-size: 1.725em;
+}
+
+.small,
+aside,
+small {
+    font-size: .75em;
+}
+
+a:hover,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: $fonts-body;
+}
+
+.site-notice {
+    top: 0;
+
+    width: 100%;
+
+    text-align: center;
+
+    background: $color-background-dark;
+
+    a {
+        color: $color-hover;
+
+        &:hover {
+            color: $color-hover-transparent;
+        }
+    }
+}
+
+#menu {
+    display: none;
+}
+
+.section {
+    text-align: center;
+
+    span {
+        padding: 0 10px 0 10px;
+    }
+}
+
+#section0 {
+    background: url('../images/theme/noisy_texture_section0-200x200.png') repeat 0 0 #F0F0F0;
+}
+
+#section1 {
+    background: url('../images/theme/noisy_texture_section1-200x200.png') repeat 0 0 #150E1F;
+}
+
+#fullPage-nav {
+    span {
+        border: 1px solid #8A8A8A;
+    }
+
+    li .active span {
+        background: #707070;
+    }
+}
+
+.icon-logo {
+    width: 155px;
+    height: 155px;
+}

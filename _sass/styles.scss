@@ -1,0 +1,15 @@
+@import 'home/variables';
+
+@import 'common/normalize';
+@import 'common/animate';
+@import 'common/fonts';
+@import 'common/helper';
+@import 'common/pace';
+@import 'common/social-icons';
+@import 'home/fullpage';
+@import 'common/button';
+@import "common/color";
+@import "home/other";
+
+//import last file
+@import 'home/responsive';

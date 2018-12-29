@@ -6,6 +6,7 @@ $size: 48;
 }
 
 .social-links {
+    $icon-size: 64px;
     a {
         text-indent: -9999em;
 
@@ -14,6 +15,14 @@ $size: 48;
         background-position: center center;
 
         filter: alpha(opacity=30);
+
+        display: inline-block;
+
+        width: $icon-size;
+        height: $icon-size;
+        margin: 18px;
+
+        background-size: $icon-size $icon-size;
         &:hover {
             -webkit-transition: all .3s ease-out;
                -moz-transition: all .3s ease-out;

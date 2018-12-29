@@ -9,7 +9,8 @@
 
 <head>
     {% include common/meta.html %}
-    <link rel="shortcut icon" href='{{ site.baseurl }}/favicon.png'>
+    <link rel="shortcut icon" href='{{ site.baseurl }}/favicon.ico' type="image/x-icon">
+    <link rel="apple-touch-icon" href='{{ site.baseurl }}/apple-touch-icon.png'>
     <link href='{{ site.baseurl }}/assets/stylesheets/home.css' rel="stylesheet" type="text/css">
     {% include common/libraries.html %}
     {% if site.google_tag_manager %}
@@ -36,6 +37,9 @@
         {% include common/notices.html %}
 
         <div class="headings animated fadeInLeft">
+            <a href="{{ site.baseurl }}/">
+                {% include icons/icon-logo.svg stroke-width="5.5%" class="color-blue icon-logo" %}
+            </a>
             {% if site.home.section0 %}
                 {{ site.home.section0 }}
             {% endif %}
@@ -44,12 +48,6 @@
             {% endif %}
             {% if site.home.section2 %}
                 {{ site.home.section2 }}
-            {% endif %}
-            {% if site.home.section3 %}
-                {{ site.home.section3 }}
-            {% endif %}
-            {% if site.home.section4 %}
-            {{ site.home.section4 }}
             {% endif %}
         </div>
         <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#social"></a>
@@ -60,10 +58,10 @@
             <a class="btn-enter btn-light" title="{{ site.data.i18n[site.lang].enter_blog }}" href="{{ site.paths.home | relative_url }}">{{ site.data.i18n[site.lang].enter_blog }}</a>
         </h1>
         <div class="social-links animated hidden">
-            <a class="btn-light ico-rss" href="{{ site.baseurl }}/feed.xml" rel="me" target="_blank" title="feed"></a>
             {% if site.author.email %}
-                <a class="btn-light ico-gmail" href="mailto:{{ site.author.email }}" rel="me" target="_blank" title="email"></a>
+            <a class="btn-light ico-gmail" href="mailto:{{ site.author.email }}" rel="me" target="_blank" title="email"></a>
             {% endif %}
+            <a class="btn-light ico-rss" href="{{ site.baseurl }}/feed.xml" rel="me" target="_blank" title="feed"></a>
             {% for link in site.author.social_links %}
                 {% if link.url %}
                     <a class="btn-light ico-{{ link.name }}" href="{{ link.url }}" rel="me" target="_blank" title="{{ link.name }}"></a>
