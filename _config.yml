@@ -16,7 +16,6 @@ kramdown:
   auto_id_prefix: 'heading-'
   smart_quotes: ["apos", "apos", "quot", "quot"]
   toc_levels: 1..3
-
 sass:
   style: compressed
 
@@ -25,14 +24,15 @@ url: 'https://tuannm.com' # the base hostname & protocol for your site, e.g. htt
 #baseurl: '/' # the subpath of your site when run on GitHub
 baseurl: '' # the subpath of your site when run to local
 
-# Seo
-title: Tuan Nguyen Manh
+# Seo Data
+title: TuanNM
 description: "Web Designer & Developer from Hanoi, Vietnam"
 keywords: 'tuannm,front-end,developer,blog,designer'
 type: Person
 image: /assets/images/image-share.png
 author:
-  name: Tuan Nguyen Manh
+  name: Tuan
+  full_name: Tuan Nguyen Manh
   job_title: Front-end Developer & Designer
   location: Hanoi, Vietnam
   email: tuannm.cntt93@gmail.com
@@ -54,7 +54,7 @@ author:
 
 home:
   section0: # something
-  section1: <h1>Tuan Nguyen Manh</h1>
+  section1: <h1>tuannm</h1>
   section2: <h2>I am a web developer focusing on front-end development. Always hungry to keep learning.</h2> #<h2>Web Designer & Developer from Hanoi, Vietnam</h2>
 
 google_tag_manager: GTM-KBJFJRZ
