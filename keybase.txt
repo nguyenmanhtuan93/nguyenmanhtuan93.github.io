@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/tuannm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tuannm.com
+  * I am tuannm (https://keybase.io/tuannm) on keybase.
+  * I have a public key ASDMvXEh4woa3t9Mb1_3IqjOuV4JGB1mW4qWlLN4eD-gUQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ccbd7121e30a1adedf4c6f5ff722a8ceb95e09181d665b8a9694b378783fa0510a",
+      "host": "keybase.io",
+      "kid": "0120ccbd7121e30a1adedf4c6f5ff722a8ceb95e09181d665b8a9694b378783fa0510a",
+      "uid": "5b77f5716fd55905c8bb7244489f8019",
+      "username": "tuannm"
+    },
+    "merkle_root": {
+      "ctime": 1546263701,
+      "hash": "7e6d0121f59cf76ce8bed33fda3469830acdf0abced95aae43dd2f590cc28352ef518a41702e793aa7c42ed5e5117a8e3306fa556c658c7c1a453d9f8e9b7d56",
+      "hash_meta": "dddef04754ff622793ea6d7b194f07f75d5a4bed9d11587259ad4d0cff964b50",
+      "seqno": 4213048
+    },
+    "service": {
+      "entropy": "99lOMy5gmSmKjGtXHHDzbzFB",
+      "hostname": "tuannm.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.13.0"
+  },
+  "ctime": 1546263745,
+  "expire_in": 504576000,
+  "prev": "9129083705e77adbb60d134c109b8913684329729edd752f0fb66de1aacbafde",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzL1xIeMKGt7fTG9f9yKozrleCRgdZluKlpSzeHg/oFEKp3BheWxvYWTESpcCCMQgkSkINwXnetu2DRNMEJuJE2hDKXKe3XUvD7Zt4arLr97EIPx6A70MIf68WMUJw1udaHTsdhErrzoD8d7F7GBScwBlAgHCo3NpZ8RAy5m83mKQhVTBHMN0gBpL6a6oGfF5KnW1gkSvpR19muRWNFyyZi2Kdx/hzTHsIJQYf83fjrpGB8OpjhFvIthHCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIE3CR7Sj3qsnP+V3++NKH/kPzk9rOsHsq3oWVgOFBaAwo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tuannm
+
+==================================================================
