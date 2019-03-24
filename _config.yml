@@ -10,6 +10,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-admin
 highlighter: rouge
 markdown: kramdown
 kramdown:
